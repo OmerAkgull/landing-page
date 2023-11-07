@@ -170,3 +170,14 @@ h1 {
   width: 140px;
   cursor: pointer;
 }
+
+footer {
+  background-color: #1f2937;
+  padding: 40px 0px;
+}
+
+footer p {
+  text-align: center;
+  color: #e5e7eb;
+  font-size: 18px;
+}

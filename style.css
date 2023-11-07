@@ -1,4 +1,15 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
 .nav-container {
+  padding-top: 15px;
+  padding-bottom: 50px;
   background-color: #1f2937;
   display: flex;
   flex-direction: row;
@@ -8,7 +19,6 @@
 }
 
 .logo-text {
-  font-family: "Roboto", sans-serif;
   font-size: 24px;
   color: #f9faf8;
   font-weight: 400;
@@ -17,7 +27,6 @@
 .link-container {
   display: flex;
   flex-direction: row;
-  font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #e5e7eb;
   gap: 25px;
@@ -34,17 +43,16 @@
 }
 
 .hero-main {
-  font-family: "Roboto", sans-serif;
   font-size: 48px;
   font-weight: 900;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   color: #f9faf8;
 }
 
 .hero-secondary {
-  font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #e5e7eb;
+  margin-top: 10px;
 }
 
 .text-container {
@@ -52,15 +60,46 @@
 }
 
 .header-button {
-  font-family: "Roboto", sans-serif;
   font-size: 18px;
   background-color: #3882f6;
   color: white;
   padding: 7px;
   border-radius: 0.5rem;
   width: 150px;
+  margin-top: 15px;
 }
 
 .scenery-img {
   max-width: 35%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  margin-top: 50px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 50px;
+  padding-bottom: 130px;
+}
+
+.card {
+  height: 180px;
+  width: 180px;
+  border: 5px solid #3882f6;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.subtext {
+  text-align: center;
+  color: #e5e7eb;
+  font-size: 18px;
 }

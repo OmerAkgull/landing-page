@@ -18,7 +18,8 @@ body {
   gap: 800px;
 }
 
-.logo-text {
+.logo-text,
+.call-text {
   font-size: 24px;
   color: #f9faf8;
   font-weight: 400;
@@ -67,6 +68,7 @@ body {
   border-radius: 0.5rem;
   width: 150px;
   margin-top: 15px;
+  cursor: pointer;
 }
 
 .scenery-img {
@@ -129,4 +131,42 @@ h1 {
   color: #1f2937;
   font-size: 24px;
   font-weight: 800;
+}
+
+.container-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+}
+
+.signUp {
+  display: flex;
+  flex-direction: row;
+  background-color: #3882f6;
+  height: 180px;
+  width: 1050px;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.subtext-2 {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.call-text {
+  font-weight: 600;
+}
+
+.btn-signup {
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 7px;
+  padding: 5px;
+  color: white;
+  font-size: 18px;
+  width: 140px;
+  cursor: pointer;
 }
